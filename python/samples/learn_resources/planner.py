@@ -1,6 +1,9 @@
 # Copyright (c) Microsoft. All rights reserved.
 import asyncio
 import os
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 from samples.sk_service_configurator import add_service
 from semantic_kernel import Kernel
